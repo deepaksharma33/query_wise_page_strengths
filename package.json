@@ -1,0 +1,17 @@
+{
+  "name": "query_wise_page_strengths",
+  "version": "1.0.0",
+  "description": "Displays strength of web-pages with respect to different queries, by evaluating scores/weights of common keywords between them",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "app": "node src/index.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.1",
+    "babel-jest": "^29.0.3",
+    "jest": "^29.0.3",
+    "ts-jest": "^29.0.1"
+  }
+}
